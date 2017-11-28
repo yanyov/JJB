@@ -1,5 +1,5 @@
 - job-template:
-    name: '{job_name}'
+    name: '{name}_job'
     descryption: '{job_description}'
     project-type: freestyle
     folder: JJB

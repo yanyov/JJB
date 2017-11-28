@@ -4,9 +4,15 @@ pipeline{
   }
   stages{
     stage('Build Jenkins Jobs'){
-        steps{
-          sh 'jenkins-jobs --conf server.ini update .'
-        }
+      steps{
+        sh 'sudo jenkins-jobs --conf server.ini update .'
+      }
+    }
+  }
+
+  post {
+    always {
+      deleteDir()
     }
   }
 }
