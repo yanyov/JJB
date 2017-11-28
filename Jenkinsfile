@@ -5,7 +5,7 @@ pipeline{
   stages{
     stage('Build Jenkins Jobs'){
       steps{
-        sh 'sudo jenkins-jobs --conf server.ini update .'
+        sh 'sudo jenkins-jobs --conf server.ini update --delete-old .'
       }
     }
   }
