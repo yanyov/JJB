@@ -1,6 +1,6 @@
 pipeline{
   agent{
-    labal 'master'
+    label 'master'
   }
   stages{
     stage('Build Jenkins Jobs'){
