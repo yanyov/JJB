@@ -1,0 +1,2 @@
+#run command
+jenkins-jobs --conf server.ini update .

@@ -1,0 +1,3 @@
+- job:
+    name: JJB
+    project-type: folder

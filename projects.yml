@@ -1,0 +1,11 @@
+- project:
+    name: my_projects
+    jobs:
+      - '{job_name}':
+            job_name: free_space
+            job_description: 'Check free space'
+            command: 'df -hT'
+      - '{job_name}':
+            job_name: check_running_processes
+            job_description: 'Check running processes'
+            command: ps -eLf

@@ -1,0 +1,8 @@
+- defaults:
+    name: global
+    description: 'Do not edit this job through web! Any manual changes to this job will be lost.'
+    build-discarder:
+        daysToKeep: 30
+        numToKeep: 5
+        artifactDaysToKeep: -1
+        artifactNumToKeep: -1

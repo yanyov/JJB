@@ -1,0 +1,7 @@
+- job-template:
+    name: '{job_name}'
+    descryption: '{job_description}'
+    project-type: freestyle
+    folder: JJB
+    builders:
+        - shell: '{command}'
